@@ -35,6 +35,14 @@
       <type>jar</type>
     </dependency>
 
+    <dependency>
+       <groupId>com.polopoly.sites.greenfieldtimes-example</groupId>      
+       <artifactId>greenfieldtimes</artifactId>
+       <version>${polopoly.version}</version>
+       <type>jar</type>
+    </dependency>
+
+
     <!-- Make the concurrent dependency excplicit so that we can remove it from the jboss container libs -->
     <dependency>
       <groupId>concurrent</groupId>
