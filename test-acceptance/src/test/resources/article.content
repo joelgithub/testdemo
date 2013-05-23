@@ -2,3 +2,4 @@ id:myproject.test.article
 inputtemplate:example.StandardArticle
 name:Test article
 component:body:value:this article was imported from a (dot)content file
+component:lead:value:just playing around
