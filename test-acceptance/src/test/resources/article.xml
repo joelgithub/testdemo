@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- http://en.wikinews.org/wiki/Oscar_Di%C3%B6s_tells_Wikinews_about_his_hostel_within_a_Boeing_747 -->
+<batch xmlns="http://www.polopoly.com/polopoly/cm/xmlio">
+
+  <content clear="true">
+    <metadata>
+      <contentid>
+        <major>Article</major>
+        <externalid>myproject.test.article</externalid>
+      </contentid>
+      <input-template>
+        <major>InputTemplate</major>
+        <externalid>example.StandardArticle</externalid>
+      </input-template>
+      <security-parent>
+        <major>Department</major>
+        <externalid>GreenfieldTimes.d</externalid>
+      </security-parent>
+    </metadata>
+    <component group="categorization[department.categorydimension.tag.Tag]" name="text"/>
+    <component group="author" name="value">Giulio</component>
+    <component group="body" name="value">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut neque orci. Morbi a nisl ac odio ullamcorper adipiscing. Morbi tempus velit sed dolor ullamcorper tincidunt. Curabitur nisl tortor, viverra ac scelerisque eu, faucibus ac orci. Curabitur ut lectus nunc, et scelerisque orci. Cras a turpis et ante fringilla vestibulum. Proin a purus massa. Mauris eget tellus mi, quis bibendum dui. In varius nulla sed elit auctor a luctus risus porta. Curabitur eget justo nisi. Vivamus feugiat scelerisque mauris, fermentum facilisis justo adipiscing et. Maecenas suscipit ipsum nec est fermentum sodales. Curabitur vel mauris felis.</component>
+    <component group="categorization[department.categorydimension.tag.Organisation]" name="text"/>
+    <component group="polopoly.Content" name="name">Test article</component>
+
+    <component group="polopoly.ContentLists" name="elements/slotElements">elements/slotElements</component>
+    <component group="polopoly.ContentLists" name="rightColumn/slotElements">rightColumn/slotElements</component>
+    <component group="polopoly.ContentLists" name="images">images</component>
+    <component group="polopoly.ContentLists" name="topimages">topimages</component>
+    <component group="polopoly.ContentLists" name="polopoly.Toc">default</component>
+    <component group="p.Inbox" name="showContent">true</component>
+    <component group="lead" name="value">just playing around</component>
+    <component group="p.AssociatedUsers" name="associatedUsers">sysadmin</component>
+    <component group="categorization[department.categorydimension.tag.Person]" name="text"/>
+    <component group="categorization[department.categorydimension.tag.Location]" name="text"/>
+    <component group="categorization[department.categorydimension.tag.Company]" name="text"/>
+
+    <component group="p.Content.state" name="onlineState">true</component>
+
+    <component group="titleFontSize" name="value">34</component>
+
+    <contentref group="categorization[department.categorydimension.subject]" name="0">
+      <contentid>
+        <major>Department</major>
+        <externalid>subject-10007</externalid>
+      </contentid>
+    </contentref>
+
+  </content>
+</batch>
