@@ -13,7 +13,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(TestBaseRunner.class)
-@ImportTestContent(files = {"article.xml"}, once = true)
+@ImportTestContent(files = {"article.content"}, once = true)
 public class ArticleIT {
 
     @Inject
