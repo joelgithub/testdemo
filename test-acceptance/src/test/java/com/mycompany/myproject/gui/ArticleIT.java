@@ -14,7 +14,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(TestBaseRunner.class)
-@ImportTestContent(files = {"article.content"}, once = true, waitUntilContentsAreIndexed = {"myproject.test.article"})
+@ImportTestContent(once = true, waitUntilContentsAreIndexed = {"myproject.test.article"})
 public class ArticleIT extends SimpleWebDriverTestBase {
 
     @Inject
