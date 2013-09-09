@@ -32,14 +32,6 @@
         <type>war</type>
     </dependency>
 
-
-    <dependency>
-        <groupId>com.polopoly.sites.greenfieldtimes-example</groupId>
-        <artifactId>webapp-dispatcher</artifactId>
-        <version>${polopoly.version}</version>
-        <type>war</type>
-    </dependency>
-
     <dependency>
       <groupId>com.polopoly.extensions</groupId>
       <artifactId>cm-velocity-integration</artifactId>
