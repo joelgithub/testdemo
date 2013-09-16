@@ -15,6 +15,7 @@
 
     <fieldType name="text_ws_lowercase" class="solr.TextField" positionIncrementGap="100">
       <analyzer>
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="/" replacement=" "/>
         <tokenizer class="solr.WhitespaceTokenizerFactory" />
         <filter class="solr.LowerCaseFilterFactory" />
       </analyzer>
@@ -76,7 +77,7 @@
     <field name="workflowState" type="string" indexed="true" stored="false" />
     <field name="hasDefaultStageVersion" type="boolean" indexed="true" stored="false" required="true" />
     <field name="showInInbox" type="boolean" indexed="true" stored="false" required="true" />
-    <field name="modifiedBy" type="string" indexed="true" stored="false" />
+    <field name="modifiedBy" type="string" indexed="true" stored="false" multiValued="true" />
     <field name="moderationState" type="string" indexed="true" stored="false" />
     <field name="lowRelevanceText" type="text" indexed="true" stored="false" multiValued="true" />
 

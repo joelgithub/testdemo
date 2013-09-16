@@ -15,6 +15,7 @@
 
     <fieldType name="text_ws_lowercase" class="solr.TextField" positionIncrementGap="100">
       <analyzer>
+        <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="/" replacement=" "/>
         <tokenizer class="solr.WhitespaceTokenizerFactory" />
         <filter class="solr.LowerCaseFilterFactory" />
       </analyzer>

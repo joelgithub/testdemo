@@ -24,7 +24,7 @@
     <polopoly.jboss-web>http://localhost:${jboss.web.port}</polopoly.jboss-web>
     <polopoly.jetty-scanIntervalSeconds>${polopoly.scanIntervalSeconds}</polopoly.jetty-scanIntervalSeconds>
     <polopoly.scanIntervalSeconds>2</polopoly.scanIntervalSeconds>
-    <polopoly.version>10.6.1-fp6-645f945</polopoly.version>
+    <polopoly.version>10.8.1</polopoly.version>
     <polopoly.web>http://localhost:${jetty.port}</polopoly.web>
     <polopoly.work-dir>${basedir}/work</polopoly.work-dir>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,7 +33,7 @@
   <parent>
     <groupId>com.polopoly</groupId>
     <artifactId>public</artifactId>
-    <version>10.6.1-fp6-645f945</version>
+    <version>10.8.1</version>
   </parent>
 
   <modules>

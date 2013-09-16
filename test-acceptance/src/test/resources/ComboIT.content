@@ -1,0 +1,6 @@
+id:.content
+inputtemplate:example.StandardArticle
+securityparent:GreenfieldTimes.d
+name:Combo Article
+component:body:value:this article was imported from a (dot)content file
+component:lead:value:Combo Article Lead
